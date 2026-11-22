@@ -25,7 +25,7 @@
 services:
   grist:
     # Grist OSS v1.7.21, image pulled 2026-10-24. Pinned by digest.
-    image: gristlabs/grist-oss@sha256:d761de16871ad0022c0ff966b46a92360c23073db8414ebb356cf879f510b1c4
+    image: gristlabs/grist-oss@sha256:7e4010f95e71417b536e687097b26abe184add368233223ea7899c9463b9a0ca
     ports:
       - "127.0.0.1:8484:8484"
       - "${PM_STACK_TAILNET_IP:-127.0.0.1}:8484:8484"
