@@ -31,7 +31,7 @@ id-events = { path = "../id-events", default-features = false }
 id-sync = { path = "../id-sync", default-features = false }
 iroh-tickets = "1"
 libc = "0.2"
-p2panda-core = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc" }
+p2panda-core = { git = "https://github.com/p2panda/p2panda", rev = "1884db1228f471ea764c90754f8bb6f3e0314deb" }
 rand = "0.10"
 rmp-serde = "1"
 scrypt = "0.12"
