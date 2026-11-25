@@ -23,7 +23,7 @@ p2panda-encryption = { git = "https://github.com/p2panda/p2panda", rev = "da80c0
   "message_scheme",
   "test_utils",
 ] }
-p2panda-sync = { git = "https://github.com/p2panda/p2panda", rev = "6d2379a4e8845732077aa2588b4e972fe4d048f5" }
+p2panda-sync = { git = "https://github.com/p2panda/p2panda", rev = "1884db1228f471ea764c90754f8bb6f3e0314deb" }
 p2panda-store = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc" }
 p2panda-stream = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc" }
 iroh = "1.3.0"
