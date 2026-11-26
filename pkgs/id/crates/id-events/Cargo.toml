@@ -32,7 +32,7 @@ id-store = { path = "../id-store", default-features = false }
 iroh-base = "1"
 iroh-blobs = "0.103"
 iroh = "1"
-p2panda-auth = { git = "https://github.com/dezren39/p2panda", rev = "4a8a7ea4b6e0da187108fba9a0085e0f9679aded", features = [
+p2panda-auth = { git = "https://github.com/dezren39/p2panda", rev = "acbf33a9a76ceee36397de20b2081b8b363ceec9", features = [
   "serde",
 ] }
 p2panda-core = { git = "https://github.com/dezren39/p2panda", rev = "4a8a7ea4b6e0da187108fba9a0085e0f9679aded" }
