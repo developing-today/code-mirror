@@ -31,7 +31,7 @@ id-events = { path = "../id-events", default-features = false }
 id-sync = { path = "../id-sync", default-features = false }
 iroh-tickets = "1"
 libc = "0.2"
-p2panda-core = { git = "https://github.com/dezren39/p2panda", rev = "4a8a7ea4b6e0da187108fba9a0085e0f9679aded" }
+p2panda-core = { git = "https://github.com/dezren39/p2panda", rev = "acbf33a9a76ceee36397de20b2081b8b363ceec9" }
 postcard = { version = "1", features = ["alloc"] }
 rand = "0.10"
 rmp-serde = "1"

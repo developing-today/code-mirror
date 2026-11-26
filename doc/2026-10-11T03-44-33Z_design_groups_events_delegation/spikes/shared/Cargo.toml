@@ -8,7 +8,7 @@ rust-version = "1.96"
 publish = false
 
 [workspace.dependencies]
-p2panda-core = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc" }
+p2panda-core = { git = "https://github.com/p2panda/p2panda", rev = "1884db1228f471ea764c90754f8bb6f3e0314deb" }
 p2panda-auth = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc" }
 p2panda-encryption = { git = "https://github.com/p2panda/p2panda", rev = "da80c05b95269926bf58121cf6a2d3dd5ca41dfc", features = [
   "data_scheme",

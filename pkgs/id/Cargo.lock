@@ -4902,7 +4902,7 @@ dependencies = [
  "n0-mainline",
  "num-bigint 0.5.1",
  "p2panda-auth",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "p2panda-store",
  "p2panda-sync",
  "postcard",
@@ -5016,7 +5016,7 @@ dependencies = [
  "iroh-gossip",
  "iroh-mdns-address-lookup",
  "libc",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "postcard",
  "proptest",
  "rand 0.10.4",
@@ -5080,7 +5080,7 @@ dependencies = [
  "iroh-blobs",
  "opaque-ke",
  "p2panda-auth",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "postcard",
  "proptest",
  "qrcode",
@@ -5130,7 +5130,7 @@ dependencies = [
  "iroh-base",
  "iroh-tickets",
  "libc",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "postcard",
  "proptest",
  "rand 0.10.4",
@@ -5159,7 +5159,7 @@ dependencies = [
  "iroh-base",
  "iroh-blobs",
  "p2panda-auth",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "proptest",
  "redb 5.0.0",
  "serde",
@@ -5190,7 +5190,7 @@ dependencies = [
  "id-store",
  "iroh-base",
  "iroh-blobs",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "p2panda-encryption",
  "postcard",
  "proptest",
@@ -5275,7 +5275,7 @@ dependencies = [
  "iroh-blobs",
  "iroh-docs",
  "iroh-gossip",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "p2panda-store",
  "postcard",
  "proptest",
@@ -5313,7 +5313,7 @@ dependencies = [
  "iroh-mainline-address-lookup",
  "iroh-tickets",
  "p2panda-auth",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "p2panda-store",
  "p2panda-sync",
  "postcard",
@@ -5367,7 +5367,7 @@ dependencies = [
  "iroh-docs",
  "iroh-gossip",
  "mime_guess",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "proptest",
  "qrcode",
  "rand 0.10.4",
@@ -5412,7 +5412,7 @@ dependencies = [
  "iroh-docs",
  "iroh-gossip",
  "libc",
- "p2panda-core",
+ "p2panda-core 0.8.1",
  "postcard",
  "proptest",
  "rand 0.10.4",
@@ -7467,7 +7467,7 @@ name = "p2panda-auth"
 version = "0.7.1"
 source = "git+https://github.com/dezren39/p2panda?rev=4a8a7ea4b6e0da187108fba9a0085e0f9679aded#4a8a7ea4b6e0da187108fba9a0085e0f9679aded"
 dependencies = [
- "p2panda-core",
+ "p2panda-core 0.7.1",
  "petgraph",
  "serde",
  "thiserror 2.0.21",
@@ -7490,6 +7490,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "p2panda-core"
+version = "0.8.1"
+source = "git+https://github.com/dezren39/p2panda?rev=acbf33a9a76ceee36397de20b2081b8b363ceec9#acbf33a9a76ceee36397de20b2081b8b363ceec9"
+dependencies = [
+ "blake3",
+ "cbor-core",
+ "ed25519-dalek 2.2.0",
+ "hex",
+ "rand 0.8.8",
+ "serde",
+ "serde_bytes",
+ "thiserror 2.0.21",
+]
+
+[[package]]
 name = "p2panda-encryption"
 version = "0.7.1"
 dependencies = [
@@ -7500,7 +7515,7 @@ dependencies = [
  "hpke-rs",
  "hpke-rs-crypto",
  "hpke-rs-rust-crypto",
- "p2panda-core",
+ "p2panda-core 0.7.1",
  "rand_chacha 0.9.0",
  "serde",
  "serde_bytes",
@@ -7518,7 +7533,7 @@ source = "git+https://github.com/dezren39/p2panda?rev=4a8a7ea4b6e0da187108fba9a0
 dependencies = [
  "async-stream",
  "futures-util",
- "p2panda-core",
+ "p2panda-core 0.7.1",
 ]
 
 [[package]]
@@ -7527,7 +7542,7 @@ version = "0.7.1"
 dependencies = [
  "futures-channel",
  "futures-util",
- "p2panda-core",
+ "p2panda-core 0.7.1",
  "p2panda-store",
  "pin-project-lite",
  "serde",
