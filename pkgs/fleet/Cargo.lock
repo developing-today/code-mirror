@@ -729,7 +729,7 @@ dependencies = [
  "fleet-registry",
  "fleet-search",
  "fleet-secrets",
- "getrandom 0.3.4",
+ "getrandom 0.4.3",
  "libc",
  "proptest",
  "rusqlite",
