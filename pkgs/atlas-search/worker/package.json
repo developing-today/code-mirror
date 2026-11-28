@@ -2,7 +2,7 @@
   "description": "Cross-database search Worker: per-query Durable Object embedding + indefinite result cache over the fleet search fan-out (developing-today/code#6788).",
   "devDependencies": {
     "@cloudflare/vitest-pool-workers": "0.23.0",
-    "@cloudflare/workers-types": "^5.20261124.1",
+    "@cloudflare/workers-types": "^5.20261125.1",
     "typescript": "^7.0.2",
     "vitest": "^5.1.1",
     "wrangler": "4.168.0",
