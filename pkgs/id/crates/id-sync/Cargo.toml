@@ -60,7 +60,7 @@ tracing = "0.1"
 ed25519-dalek = { version = "3", features = ["rand_core"] }
 iroh-docs = "0.101"
 iroh-gossip = { version = "0.101", features = ["net"] }
-p2panda-auth = { git = "https://github.com/dezren39/p2panda", rev = "4a8a7ea4b6e0da187108fba9a0085e0f9679aded", features = [
+p2panda-auth = { git = "https://github.com/dezren39/p2panda", rev = "acbf33a9a76ceee36397de20b2081b8b363ceec9", features = [
   "serde",
 ] }
 # The artifact and envelope network tests use id-core silent lookup helpers.
