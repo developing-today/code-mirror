@@ -48,7 +48,7 @@ rmp-serde = "1"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 futures-lite = "2"
-p2panda-core = { git = "https://github.com/dezren39/p2panda", rev = "4a8a7ea4b6e0da187108fba9a0085e0f9679aded" }
+p2panda-core = { git = "https://github.com/dezren39/p2panda", rev = "acbf33a9a76ceee36397de20b2081b8b363ceec9" }
 rand = "0.10"
 toml = "1"
 sha2 = "0.11"
